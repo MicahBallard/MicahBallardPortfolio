@@ -1,0 +1,14 @@
+.col-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightseagreen;
+    min-height: 4em;
+    border: 2px solid darkblue;
+    margin: 10px;
+}
+
+/* this inactive class is toggled (added or removed) to the elements that we want to show as inactive */
+.inactive {
+  opacity: 0.3;
+}

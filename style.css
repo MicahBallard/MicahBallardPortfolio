@@ -1,0 +1,363 @@
+:root {
+    --c1: rgb(116, 76, 60);
+    --c2: rgb(82, 53, 42);
+    --c3: #ffffff;
+    --s1: rgba(0, 0, 0, 0.062);
+    --p: 1ch;
+  }
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.bg-custom
+{
+    background-image: linear-gradient(rgb(116, 76, 60), rgb(82, 53, 42));
+}
+
+body { 
+    
+    /*background-image: url(img/Skryabin-752x440.jpg) no-repeat center center fixed;
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: fixed;*/
+}
+
+nav {
+    margin-bottom: 1%;
+}
+
+hr {
+    display: none;
+}
+button {
+    border-color: rgba(0, 0, 0, 0);
+}
+button:hover 
+{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0, 0, 0, 0.521);
+    transition-duration: 0.4s;
+}
+
+.a-container {
+    padding: 1%;
+    margin: auto;
+    margin-bottom: 0.5%;
+    border: 1px solid linear-gradient(var(--c1),var(--c2));
+    background: linear-gradient(var(--c1),var(--c2));
+    border-radius: 25px;  
+    width: 80%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 0 0 auto;
+    box-shadow: 5px 5px var(--s1);
+  }
+  
+  .c-container {
+    padding: 1%;
+    margin: auto;
+    margin-bottom: 4.5%;
+    border: 1px solid linear-gradient(var(--c1),var(--c2));
+    background: linear-gradient(var(--c1),var(--c2));
+    border-radius: 25px;  
+    width: 70%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 0 0 auto;
+    box-shadow: 5px 5px var(--s1);
+  }
+  
+  .s-container {
+    padding: 1%;
+    margin: auto;
+    margin-bottom: 19.11%;
+    border: 1px solid linear-gradient(var(--c1),var(--c2));
+    background: linear-gradient(var(--c1),var(--c2));
+    border-radius: 25px;  
+    width: 40%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 0 0 auto;
+    box-shadow: 5px 5px var(--s1);
+  }
+  .p-container {
+    width: 100%;
+    background-color: var(--s1);
+  }
+  h1 {
+    font-size: 4.5em;
+    width: 60%;
+  }
+  
+  h2 {
+    margin-bottom: 5%;
+  }
+  
+  h5 {
+    text-shadow: 2px 2px var(--s1);
+  }
+  
+  p {
+    font-size: 1em;
+    color:var(--c3);
+  }
+  /* a display property of "none" makes the project1 container invisible at load */
+
+ 
+  #chromesthesia-container {
+    display: flex;
+  }
+  
+  #source-container {
+    display: flex;
+  }
+  
+  .item {
+    flex: 1;
+    background: linear-gradient(var(--c1),var(--c2));
+    padding: var(--p);
+    min-height: 4rem;
+  }
+  
+  #about-image {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 3px 3px var(--s1);
+    margin-bottom: 2%;
+  }
+  
+  #chromesthesia-image {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 3px 3px var(--s1);
+    margin-bottom: 2%;
+  }
+  
+  
+  /*Page Transition effect*/
+  @keyframes fadein
+  {
+      0% 
+      {
+          opacity: 0;
+          
+      }
+      100%
+      {
+          opacity: 1;
+      
+      }
+  }
+  
+  #fadein p, .a-container, .c-container, .s-container
+  {
+    animation-duration: 3s;
+      animation-name: fadein;
+      animation-iteration-count: 1;
+      animation-direction: alternate;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    
+    .container, .a-container, .c-container, .s-container {
+      padding: 1%;
+      margin: auto;
+      border: none;
+      background: linear-gradient(var(--c1),var(--c2));
+      width: 100%;
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      flex: 0 0 auto;
+      box-shadow: none;
+    }
+
+    #p5-canvas {
+        height:100%;
+    }
+
+    .s-container {
+        margin-bottom: 66%;
+    }
+
+    .item {
+        background: none;
+    }
+
+    #keyC, #keyCS, #keyD, #keyDS, #keyE, #keyF, #keyFS, #keyG, #keyGS, #keyA, #keyAS, #keyB{
+        display: none;
+    }
+
+  }
+
+  #keyC:hover, #keyCS:hover, #keyD:hover, #keyDS:hover, #keyE:hover, #keyF:hover, #keyFS:hover, #keyG:hover, #keyGS:hover, #keyA:hover, #keyAS:hover, #keyB:hover{
+      opacity: 1;
+  }
+  #keyC {
+    position: absolute;
+    left: 26%;
+    width: 6%;
+    height: 30%;
+    border-radius: .5rem;
+    margin-top: 100%;
+    background: white;
+    color: #eee;
+    opacity: 0.25;
+    bottom: 0;
+    z-index: 0;
+  }
+
+  #keyCS {
+    position: absolute;
+    left: 30.75%;
+    width: 3%;
+    height: 15%;
+    border-radius: .5rem;
+    background: #000;
+    color: #eee;
+    opacity: 0.25;
+    bottom: 15%;
+    z-index: 1;
+  }
+
+  #keyD {
+    position: absolute;
+    left: 32.5%;;
+    width: 6%;
+    height: 30%;
+    border-radius: .5rem;
+    background: white;
+    color: #eee;
+    bottom: 0;
+    opacity: 0.25;
+    z-index: 0;
+    margin-top: 1%;
+  }
+
+  #keyDS {
+    position: absolute;
+    left: 37.25%;
+    width: 3%;
+    height: 15%;
+    border-radius: .5rem;
+    background: #000;
+    color: #eee;
+    opacity: 0.25;
+    bottom: 15%;
+    z-index: 1;
+  }
+
+  #keyE {
+    position: absolute;
+    left: 39%;
+    width: 6%;
+    height: 30%;
+    border-radius: .5rem;
+    background: white;
+    color: #eee;
+    opacity: 0.25;
+    bottom: 0;
+    z-index: 0;
+  }
+
+  #keyF {
+    position: absolute;
+    left: 45.5%;
+    width: 6%;
+    height: 30%;
+    border-radius: .5rem;
+    background: white;
+    color: #eee;
+    opacity: 0.25;
+    bottom: 0;
+    z-index: 0;
+  }
+
+  #keyFS {
+    position: absolute;
+    left: 50.25%;
+    width: 3%;
+    height: 15%;
+    border-radius: .5rem;
+    background: #000;
+    color: #eee;
+    opacity: 0.25;
+    bottom: 15%;
+    z-index: 1;
+  }
+  #keyG {
+    position: absolute;
+    left: 52%;
+    width: 6%;
+    height: 30%;
+    border-radius: .5rem;
+    background: white;
+    color: #eee;
+    opacity: 0.25;
+    bottom: 0;
+    z-index: 0;
+  }
+
+  #keyGS {
+    position: absolute;
+    left: 56.75%;
+    width: 3%;
+    height: 15%;
+    border-radius: .5rem;
+    background: #000;
+    color: #eee;
+    opacity: 0.25;
+    bottom: 15%;
+    z-index: 1;
+  }
+  #keyA {
+    position: absolute;
+    left: 58.5%;
+    width: 6%;
+    height: 30%;
+    border-radius: .5rem;
+    background: white;
+    color: #eee;
+    opacity: 0.25;
+    bottom: 0;
+    z-index: 0;
+  }
+
+  #keyAS {
+    position: absolute;
+    left: 63.25%;
+    width: 3%;
+    height: 15%;
+    border-radius: .5rem;
+    border-color: none;
+    background: #000;
+    color: #eee;
+    opacity: 0.25;
+    bottom: 15%;
+    z-index: 1;
+  }
+
+  #keyB {
+    position: absolute;
+    left: 65%;
+    width: 6%;
+    height: 30%;
+    border-radius: .5rem;
+    background: white;
+    color: #eee;
+    opacity: 0.25;
+    bottom: 0;
+    z-index: 0;
+  }

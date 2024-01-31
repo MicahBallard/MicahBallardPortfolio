@@ -1,0 +1,25 @@
+body {
+    margin: 1ch;
+}
+
+h1 {
+    background-color: #DDDDDD;
+    padding: .5ch;
+}
+
+#color-swatch {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 0.5rem;
+    background-color: black;
+    position: relative;
+    animation: scoot 6s forwards;
+    animation-play-state: paused;
+}
+
+@keyframes scoot {
+    0% { left: 0px; }
+    20% { left: 400px; transform: rotate(0deg); }
+    40% { transform: rotate(90deg); }
+    100% { left: 400px; transform: rotate(90deg); }
+}

@@ -1,0 +1,14 @@
+body {
+  margin: 1ch;
+}
+
+.our-buttons {
+  background-color: lightgray;
+  padding: 1ch;
+  margin-bottom: 3rem;
+}
+
+.tab-content {
+  background-color: lightgray;
+  height: 200px;
+}
