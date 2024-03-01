@@ -26,6 +26,9 @@ body {
     -o-background-size: cover;
     background-size: cover;
     background: fixed;*/
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 nav {
@@ -79,7 +82,7 @@ button:hover
   .s-container {
     padding: 1%;
     margin: auto;
-    margin-bottom: 19.11%;
+    margin-bottom: 1%;
     border: 1px solid linear-gradient(var(--c1),var(--c2));
     background: linear-gradient(var(--c1),var(--c2));
     border-radius: 25px;  
@@ -94,6 +97,11 @@ button:hover
   .p-container {
     width: 100%;
     background-color: var(--s1);
+  }
+
+
+  footer{
+      margin-top: auto;
   }
   h1 {
     font-size: 4.5em;
