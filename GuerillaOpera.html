@@ -14,10 +14,10 @@
 
   <title>Micah Ballard</title>
   </head>
-  <body>
+  <body style="background-image: linear-gradient(var(--m1),var(--m2));">
     
-<!--Responsive navigation menu (switches to hamburger on mobile)-->
-<nav class="navbar navbar-expand-lg navbar-dark bg-custom sticky-top" aria-label="navbar">
+    <!--Responsive navigation menu (switches to hamburger on mobile)-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-custom sticky-top" aria-label="navbar" style="background-image: linear-gradient(var(--c9),var(--c8));">
   <div class="container-xl">
     <a class="navbar-brand" href="#">Micah Ballard</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07XL" aria-controls="navbarsExample07XL" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,16 +30,25 @@
           <a class="nav-link active" aria-current="page" href="#">Back to Top</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" id="aButton" aria-current="page" href="about.html">About Micah</a>
+          <a class="nav-link active" id="aButton" aria-current="page" href="index.html">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" id="IoWButton" aria-current="page" href="InstrumentsOfWar.html">Instruments of War</a>
+          <a class="nav-link active" id="aButton" aria-current="page" href="aboutMusic.html">About Micah</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" id="mButton" aria-current="page" href="CopyrightMusic.html">Copyrighted Music</a>
+          <a class="nav-link active" id="IoWButton" aria-current="page" href="Ensembles.html">Ensembles</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" id="IoWButton" aria-current="page" href="Concerts.html">MUBS Concerts</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" id="mButton" aria-current="page" href="Music.html">Music</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active" id="mButton" aria-current="page" href="https://musescore.com/user/30948625?share=copy_link" target="_blank">Musescore</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" id="aButton" aria-current="page" href="https://www.linkedin.com/in/micah-ballard-a61189240/" target="_blank">LinkedIn</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active" id="rButton" aria-current="page" href="Micah_Ballard_Resume.pdf" target="_blank">Resume</a>
@@ -69,38 +78,34 @@
   </div>
 </nav>
 
-    <div class="flex-container">
-        <!-- About Me flex container -->
-        <div class="m-scene" id="aboutMe-container">
-          <div class="a-container" id="about-container">
+        <!-- Chromesthesia flex container -->
+        <div class="am-container" id="chromesthesia-container">
+          
             <li class="item">
-              <h2>About Micah</h2>
-              <p>Micah began his music studies early in his youth with his father, who taught him the
-                fundamentals of music theory and harmony. In High School, Micah utilized his background in
-                music when he joined the Walnut Hills Wind Ensemble as a freshman, playing the bassoon.
-                Micah would then go on to perform with the Cincinnati Symphony Youth Orchestra, where he
-                was taught by the CSO Principal Bassoonist Christopher Sales, and join the Nouveau program for 
-                minority musicians. As he began to take an interest in music composition, Micah decided to make three 
-                compositions for the Interlochen Center of the Arts Summer camp. It was after this
-                experience where he got the opportunity to study with CCM Professor Ellen Harrison and create a 
-                composition for Artswave Isolation Commissions: The Past We Step Into.
-                <br>In College, Micah has continued his compositions as well as interests in game design by becoming a 
-                Music Composition and Game Development double major in the Honors College of Miami University. 
-                Micah has composed works for various instrumentations involving woodwinds, percussion, strings, piano, 
-                and more. Micah also co-produced a videogame themed concert with Dr. Aaron Pergram, arranging 
-                videogame music from works such as Celeste, Final Fantasy, Undertale, Dragon Quest, and more. 
-                Micah also composed for the music ensemble Dal Niente.
+              <h2>Instruments of War</h2>
+              <p>Compose yourself, and your surroundings! In a world where 
+                instruments are weapons, you take the role of a frog-like creature that engages in 
+                competitive 1v1s to test various weapons manufactured by the Sky Conservatory, 
+                a cloud base laboratory that researches and manufactures weaponry. Utilize movement mechanics such
+                as wallrunning, sliding, dashing, and more to dominate your opponent! Customize your 
+                arsenal and music based attire to your liking. 
+                <br>
+                Instruments of War code, 3D models, and music were created by me.
                 
-                </p>
+              </p>
             </li>
             <li class="item">
-              <img id="about-image" src="img/Micah.jpg" alt="Micah">
-             
+              <video width="640" height="360" controls>
+                <source src="video/InstrumentsOfWarTrailer1-3.mp4" type="video/mp4">
+                <source src="video/InstrumentsOfWarTrailer1-3.ogg" type="video/ogg">
+              Your browser does not support the video tag.
+              </video>
+              <h5><i>Instruments of War Gameplay Trailer</i></h5>
             </li>
-          </div>
         </div>
-       
-        <!--<div id="p5-canvas">
+
+      <!--<div class="flex-container">
+        <div id="p5-canvas">
           <button id="keyC"></button>
           <button id="keyCS"></button>
           <button id="keyD"></button>
@@ -113,7 +118,7 @@
           <button id="keyA"></button>
           <button id="keyAS"></button>
           <button id="keyB"></button>
-      </div>-->
+        </div>-->
     </div>
     <footer>
       <div class="mt-1 p-4 bg-dark text-white text-center">
@@ -122,7 +127,6 @@
         </div>  
       </div>  
     </footer>
-     
   <!--<script src="main.js"></script>-->
 </body>
 </html>
