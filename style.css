@@ -47,6 +47,15 @@ body {
   font-size: 2.5vh;
 }
 
+.collapseBar{
+  height: 2.5vh;
+}
+
+.dropBar{
+  position: absolute;
+}
+
+
 .nav-link{
   
   font-size: 2vh;
@@ -399,6 +408,14 @@ button:hover
 
     .refImage{
       width: 100%;
+    }
+
+    .collapseBar{
+      height: auto;
+    }
+    
+    .dropBar{
+      position: relative;
     }
 
     .ag-container{
