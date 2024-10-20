@@ -101,12 +101,28 @@ button:hover
     display: flex;
     flex-direction: row;
     flex-wrap:wrap-reverse;
-    flex:50%;
+    flex: 0 0 auto;
     box-shadow: 5px 5px var(--s1);
-    content: "";
-    clear:both;
+    
     
     /*display: table;*/
+  }
+
+  .ag-container {
+    padding: 1%;
+    margin: auto;
+    margin-bottom: 0.5%;
+    border: 1px solid linear-gradient(var(--c1),var(--c2));
+    background: linear-gradient(var(--c6),var(--c7));
+    border-radius: 25px;  
+    width: 80%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    flex: 0 0 auto;
+    box-shadow: 5px 5px var(--s1);
+    
   }
 
   .amt-container {
@@ -130,21 +146,7 @@ button:hover
     /*display: table;*/
   }
 
-  .ag-container {
-    padding: 1%;
-    margin: auto;
-    margin-bottom: 0.5%;
-    border: 1px solid linear-gradient(var(--c1),var(--c2));
-    background: linear-gradient(var(--c6),var(--c7));
-    border-radius: 25px;  
-    width: 80%;
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap-reverse;
-    flex: 0 0 auto;
-    box-shadow: 5px 5px var(--s1);
-  }
+  
   
   .b-container {
     padding: 1%;
