@@ -17,41 +17,41 @@
   <body style="background-image: linear-gradient(var(--m1),var(--m2));">
     
     <!--Responsive navigation menu (switches to hamburger on mobile)-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-custom sticky-top" aria-label="navbar" style="background-image: linear-gradient(var(--c9),var(--c8));">
+<nav class="navbar navbar-expand-lg navbar-dark bg-custom sticky-top" aria-label="navbar" style=" background-image: linear-gradient(var(--c9),var(--c8));">
   <div class="container-xl">
     <a class="navbar-brand" href="index.html">Micah Ballard</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07XL" aria-controls="navbarsExample07XL" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarsExample07XL">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    <div class="collapse navbar-collapse" id="navbarsExample07XL" style="height: 2.5vh;">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 " style="position:absolute;">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Back to Top</a>
+          <a class="nav-link" aria-current="page" href="#" >Back to Top</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" id="aButton" aria-current="page" href="index.html">Home</a>
+          <a class="nav-link " id="aButton" aria-current="page" href="index.html">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" id="aButton" aria-current="page" href="aboutMusic.html">About Micah</a>
+          <a class="nav-link " id="aButton" aria-current="page" href="aboutMusic.html" >About Micah</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active" id="mButton" aria-current="page" href="Music.html">Music</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" id="IoWButton" aria-current="page" href="MusicExperiences.html">Experiences</a>
+          <a class="nav-link " id="IoWButton" aria-current="page" href="MusicExperiences.html">Experiences</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" id="mButton" aria-current="page" href="https://musescore.com/user/30948625?share=copy_link" target="_blank">Musescore</a>
+          <a class="nav-link " id="mButton" aria-current="page" href="https://musescore.com/user/30948625?share=copy_link" target="_blank">Musescore</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" id="aButton" aria-current="page" href="https://www.linkedin.com/in/micah-ballard-a61189240/" target="_blank">LinkedIn</a>
+          <a class="nav-link " id="aButton" aria-current="page" href="https://www.linkedin.com/in/micah-ballard-a61189240/" target="_blank">LinkedIn</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" id="rButton" aria-current="page" href="Micah_Ballard_Resume.pdf" target="_blank">Resume</a>
+          <a class="nav-link " id="rButton" aria-current="page" href="Micah_Ballard_Resume.pdf" target="_blank">Resume</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" id="rButton" aria-current="page" href="Micah Ballard CV.pdf" target="_blank">CV</a>
+          <a class="nav-link " id="rButton" aria-current="page" href="Micah Ballard CV.pdf" target="_blank">CV</a>
         </li>
         <!--<li class="nav-item">
           <a class="nav-link active" id="pOButton" aria-current="page">Piano On</a>
@@ -83,173 +83,178 @@
           
           <li class="item">
             <h2>Skylight</h2>
-            <p style="font-size:130%;">This piece came from a spark of inspiration upon looking at an overcast sunset sky one
+            <p class="fontSize2" >This piece came from a spark of inspiration upon looking at an overcast sunset sky one
               day, as the clouds broke letting out rays of light. This inspired the lyrics and melody of
               this piece, Skylight. I used this song as an opportunity to explore and talk about my
               feelings when composing, and the idea of how inspiration can hit you all at once, and
               then suddenly disappear, leaving you with writer's block. I hope you all can relate to
-              some aspects of this music’s story.
+              some aspects of this music’s story.</p>
               
             <br>
-            <a href="https://pakmanlie.itch.io/frogology" target="_blank">Link to Excerpt of Score</a>
-            
+            <a href="Scores/SkylightScore.pdf" target="_blank" class="fontSize2" >Link to Excerpt of Score</a>
+            <br><br><br><br><br><br><br>
           </li>
-            <iframe width="640" height="360" src="https://www.youtube.com/embed/qMTjV_G0WMA?si=7riLlq-1F-mNd_Yn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="50%" src="https://www.youtube.com/embed/qMTjV_G0WMA?si=7riLlq-1F-mNd_Yn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </div>
       <br>
+      <div class="am-container" id="about-container">
+          
+        <li class="item">
+          <h2>The Ship of Theseus</h2>
+          <p class="fontSize2" >This piece is about the concept of the ship of Theseus, a philosophical idea about how 
+            many pieces of a ship you can swap out before it becomes an entirely new ship. In this case, this piece has a 
+            main theme that changes in many variations, while also having a palindromic form that develops these variations 
+            nd then revisits them towards the second half of the piece.</p>
+            <br>
+            <p style="font-size:1.5vh"><i>The Ship of Theseus</i></p>
+            <audio controls style="width: 95%; " > 
+              <source src="sound/The Ship of Theseus Orchestra.mp3" type="audio/mpeg">
+              <source src="sound/The Ship of Theseus Orchestra.ogg" type="audio/ogg">             
+              Your browser does not support the audio element.
+            </audio>
+            <br>
+            <br>
+          <a href="Scores/TheShipOfTheseusScore.pdf" target="_blank" class="fontSize2" >Link to Excerpt of Score</a>
+          
+        </li>
+          <img id="about-image" width="25%" src="img/ShipOfTheseusCover (1).png" alt="ShipOfTheseus">
+
+      </div>
+    <br>
+
         <div class="am-container" id="about-container">
           
           <li class="item">
             <h2>Forest Fantasie</h2>
-            <p style="font-size:140%;">Forest Fantasie takes you on a trip through various characteristics of a forest
+            <p class="fontSize2" >Forest Fantasie takes you on a trip through various characteristics of a forest
               environment, from frolicking about at the start, to wandering the mysterious ancient
               parts. This is then interrupted by chaotic rhythms that manipulate the original themes
-              of the piece as nature is disturbed by outside influences.
+              of the piece as nature is disturbed by outside influences.</p>
               <br>
-            <a href="https://pakmanlie.itch.io/frogology" target="_blank">Link to Excerpt of Score</a>
-            
+            <a href="Scores/ForestFantasieScore.pdf" target="_blank" class="fontSize2" >Link to Excerpt of Score</a>
+            <br><br><br><br><br><br><br><br>
           </li>
           
-            <iframe width="640" height="360" src="https://www.youtube.com/embed/nHzARv4YefA?si=LcMyXm3ypnHHwepf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-           
+            <iframe width="50%" src="https://www.youtube.com/embed/nHzARv4YefA?si=LcMyXm3ypnHHwepf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            
         </div>
       <br>
+
 
         <section class="amt-container" id="about-container">
           <article class="item">
             <h2>Compositions</h2>
-            <p style="font-size:300%; padding: 10px;" >Rhythm of Harmony</p>
-            <p><i>Growth From Decay</i></p>
-            <audio controls> 
-              <source src="sound/Growth from Decay Final.wav" type="audio/mpeg">
+            <p class="fontSize3" style="padding: 10px" >Rhythm of Harmony</p>
+            <p class="fontSize2" ><i>Growth From Decay</i></p>
+            <audio controls style="width: 100%; "> 
+              <source src="sound/Growth from Decay Final.wav" type="audio/wav">
               <source src="sound/Growth from Decay Final.ogg" type="audio/ogg">             
               Your browser does not support the audio element.
             </audio>
-            <p><i>Titlescreen</i></p>
-            <audio controls> 
-              <source src="sound/TitlescreenRhythmOfHarmony.wav" type="audio/mpeg">
-              <source src="sound/TitlescreenRhythmOfHarmony.wav" type="audio/ogg">             
+            <p class="fontSize2" ><i>Titlescreen</i></p>
+            <audio controls style="width: 100%; "> 
+              <source src="sound/TitlescreenRhythmOfHarmony.wav" type="audio/wav">
+              <source src="sound/TitlescreenRhythmOfHarmony.ogg" type="audio/ogg">             
               Your browser does not support the audio element.
             </audio>
             <br>
-            <p style="font-size:120%; padding: 30px 0px 0px;">I composed this soundtrack for a music-focused roguelike created for a game jam, where as you play
+            <p class="fontSize2" style="padding: 30px 0px 0px;">I composed this soundtrack for a music-focused roguelike created for a game jam, where as you play
               the game and earn more abilities, more instruments get added to the track. I was the lead programmer and composer, alongside
               a team of 8 other people. Our game was considered one of the best sounding masterpieces submitted to their competition.
              </p>
-             <a href="https://doornumberfourproductions.itch.io/rhythm-of-harmony" target="_blank">Link to the game on Itch.io</a>
+             <a href="https://doornumberfourproductions.itch.io/rhythm-of-harmony" target="_blank" class="fontSize2" >Link to the game on Itch.io</a>
     
-             <p style="font-size:300%; padding: 10px;" >Feast or Famine</p>
-            <p><i>Feast!</i></p>
-            <audio controls> 
-              <source src="sound/Feast 8-5-24.wav" type="audio/mpeg">
-              <source src="sound/Feast 8-5-24.wav" type="audio/ogg">             
+             <p class="fontSize3"style="padding: 40px 0px 0px 0px;" >Feast or Famine</p>
+            <p class="fontSize2" ><i>Feast!</i></p>
+            <audio controls style="width: 100%; ">  
+              <source src="sound/Feast 8-5-24.wav" type="audio/wav">
+              <source src="sound/Feast 8-5-24.ogg" type="audio/ogg">             
               Your browser does not support the audio element.
             </audio>
-            <p><i>Famine!</i></p>
-            <audio controls> 
-              <source src="sound/Famine!.wav" type="audio/mpeg">
-              <source src="sound/Famine!.wav" type="audio/ogg">             
+            <p class="fontSize2" ><i>Famine!</i></p>
+            <audio controls style="width: 100%; "> 
+              <source src="sound/Famine!.wav" type="audio/wav">
+              <source src="sound/Famine!.ogg" type="audio/ogg">             
               Your browser does not support the audio element.
             </audio>
             <br>
-            <p style="font-size:120%; padding: 30px 0px 0px;">I composed this soundtrack for a tower defense-side scrolling game I worked on with 11 other people as composer
+            <p class="fontSize2" style="padding: 30px 0px 0px;">I composed this soundtrack for a tower defense-side scrolling game I worked on with 11 other people as composer
               and one of 3 programmers. I based the style of the <i>Feast!</i> track on the Central African Soukous genre of music, 
               and the <i>Famine!</i> track on the polyrhythmic hunting music of the Pygmies. This game tied for first place in a game jam I was a part of, along with winning awards for 
               "Best Narrative", "Emotional Masterpiece", and "Most Innovative".
              </p>
-             <a href="https://doornumberfourproductions.itch.io/feast-or-famine" target="_blank">Link to the game on Itch.io</a>
+             <a href="https://doornumberfourproductions.itch.io/feast-or-famine" target="_blank" class="fontSize2" >Link to the game on Itch.io</a>
     
-            
-            <p style="font-size:300%; padding: 10px;" ><i>Astra Eternum - Félicette</i> </p>
-            <audio controls> 
+             <p class="fontSize3" style="padding: 40px 0px 0px 0px;" >Frogology</p>
+             <p class="fontSize2" ><i>Sierra Nevada</i></p>
+             <audio controls style="width: 100%; "> 
+               <source src="sound/Sierra Nevada remixedAudio.mp3" type="audio/mpeg">
+               <source src="sound/Sierra Nevada remixedAudio.ogg" type="audio/ogg">             
+               Your browser does not support the audio element.
+             </audio>
+             <p class="fontSize2" ><i>Sierra Nevada (String Arrangement)</i></p>
+             <audio controls style="width: 100%; "> 
+               <source src="sound/Sierra Nevada (String Arrangement).mp3" type="audio/mpeg">
+               <source src="sound/Sierra Nevada (String Arrangement).ogg" type="audio/ogg">             
+               Your browser does not support the audio element.
+             </audio>
+             <br>
+             <p class="fontSize2" style="padding: 30px 0px 0px;">I composed this soundtrack for an open-world quest game in which 
+              players participate as a conservationist for frogs in the Sierra Nevada mountains of southern California. I got inspiration
+              for the music by looking at the landscapes of Sierra Nevada, and decided that a Wind Band style would work perfectly to 
+              give the feeling of a vast open world environment like Sierra Nevada. The String Arrangement is played on the title screen
+              as a nice relaxing version of the game's main theme.
+              </p>
+              <a href="https://pakmanlie.itch.io/frogology" target="_blank" class="fontSize2" >Link to the game on Itch.io</a>
+     
+              <p class="fontSize3" style="padding: 40px 0px 0px 0px;" >Sky Fishing</p>
+              <p class="fontSize2" ><i>Boundless Adventure</i></p>
+              <audio controls style="width: 100%; "> 
+                <source src="sound/Boundless Adventure 6-3-24.mp3" type="audio/mpeg">
+                <source src="sound/Boundless Adventure 6-3-24.ogg" type="audio/ogg">             
+                Your browser does not support the audio element.
+              </audio>
+              <br>
+              <p class="fontSize2" style="padding: 30px 0px 0px;">I created this music for a personal project, a game where you play
+                as a bird flying through the sky catching flying fish.
+               </p>
+               <a href="https://doornumberfourproductions.itch.io/skyfishing" target="_blank" class="fontSize2" >Link to the game on Itch.io
+               </a>
+               <br>
+
+               <p class="fontSize3" style="padding: 40px 0px 0px 0px;" >REDHAWK Simulator</p>
+               <p class="fontSize2" ><i>Desert</i></p>
+               <audio controls style="width: 100%; "> 
+                 <source src="sound/Desert.mp3" type="audio/mpeg">
+                 <source src="sound/Desert.ogg" type="audio/ogg">             
+                 Your browser does not support the audio element.
+               </audio>
+               <br>
+               <p class="fontSize2" style="padding: 30px 0px 0px;">I composed this track for another Miami University Game Design Club game 
+                in which I was the lead programmer of. There were four levels in the game, and I composed this Desert music. I went for
+                something that felt more peaceful and nostalgic.
+                </p>
+                <a href="https://store.steampowered.com/app/3264610/REDHAWK_Simulator/" target="_blank" class="fontSize2" >Link to the game on Steam
+                </a>
+                <br>
+
+              <p class="fontSize3" style="padding: 40px 0px 0px 0px;" >Astra Eternum</p>
+            <p class="fontSize2" ><i>Félicette</i></p>
+            <audio controls style="width: 100%; "> 
               <source src="sound/Astra Eternum - Félicette.mp3" type="audio/mpeg">
               <source src="sound/Astra Eternum - Félicette.ogg" type="audio/ogg">             
               Your browser does not support the audio element.
             </audio>
             <br>
-            <p style="font-size:120%; padding: 30px 0px 0px;">This piece was composed for a platforming video game where you play as a cat in space.
+            <p class="fontSize2" style="padding: 30px 0px 0px;">This piece was composed for a platforming video game where you play as a cat in space.
               The game was created by the Miami University Game Design Club.
              </p>
-             <a href="https://pakmanlie.itch.io/frogology" target="_blank">Link to Excerpt of Score</a>
-    
-             <p style="font-size:300%; padding: 10px;" ><i>Astra Eternum</i> </p>
-             <p>Félicette</p>
-             <audio controls> 
-               <source src="sound/Astra Eternum - Félicette.mp3" type="audio/mpeg">
-               <source src="sound/Astra Eternum - Félicette.ogg" type="audio/ogg">             
-               Your browser does not support the audio element.
-             </audio>
+             <a href="https://store.steampowered.com/app/3222070/MGDC_Minigame_Collection/" target="_blank" class="fontSize2" >You can play these games on Steam here!
+             </a>
+             <p class="fontSize3" style="padding: 30px 0px 0px;">You can check out my other works on my Musescore and Soundcloud!
+             </p>
              <br>
-             <p style="font-size:120%; padding: 30px 0px 0px;">This piece was composed for a platforming video game where you play as a cat in space.
-               The game was created by the Miami University Game Design Club.
-              </p>
-              <a href="https://pakmanlie.itch.io/frogology" target="_blank">Link to Excerpt of Score</a>
-     
-            
-           
-            <br>
-            <p><i>Attuned</i></p>
-            <audio controls>
-              <source src="sound/Attuned.mp3" type="audio/mpeg">
-              <source src="sound/Attuned.ogg" type="audio/ogg">
-              Your browser does not support the audio element.
-            </audio>
-            <br>
-            
-            <p><i>Forest Fantasie</i></p>
-            <audio controls>
-              <source src="sound/Forest Fantasie.mp3" type="audio/mpeg">
-              <source src="sound/Forest Fantasie.ogg" type="audio/ogg">
-              Your browser does not support the audio element.
-            </audio>
-            <br>
 
-            <p><i>Instruments of War - Forest of Combat</i></p>
-            <audio controls>
-              <source src="sound/Instruments of War - Forest of Combat.mp3" type="audio/mpeg">
-              <source src="sound/Instruments of War - Forest of Combat.ogg" type="audio/ogg">
-              Your browser does not support the audio element.
-            </audio>
-            <br>
-
-            <p><i>Instruments of War - Lounge of Curiosity (Piano)</i></p>
-            <audio controls>
-              <source src="sound/Lounge of Curiosity - PianoVersion.mp3" type="audio/mpeg">
-              <source src="sound/Lounge of Curiosity - PianoVersion.ogg" type="audio/ogg">
-              Your browser does not support the audio element.
-            </audio>
-            <br>
-
-            <p><i>Instruments of War - Lounge of Curiosity (Strings)</i></p>
-            <audio controls>
-              <source src="sound/Lounge of Curiosity - Strings.mp3" type="audio/mpeg">
-              <source src="sound/Lounge of Curiosity - Strings.ogg" type="audio/ogg">
-              Your browser does not support the audio element.
-            </audio>
-            <br>
-
-            <p><i>Remiscing Regrets</i></p>
-            <audio controls>
-              <source src="sound/Remiscing Regrets.mp3" type="audio/mpeg">
-              <source src="sound/Remiscing Regrets.ogg" type="audio/ogg">
-              Your browser does not support the audio element.
-            </audio>
-            <br>
-
-            <p><i>To Aeris</i></p>
-            <audio controls>
-              <source src="sound/To Aeris.mp3" type="audio/mpeg">
-              <source src="sound/To Aeris.ogg" type="audio/ogg">
-              Your browser does not support the audio element.
-            </audio>
-            <br>
-
-            <p><i>Uncharted_Depths</i></p>
-            <audio controls>
-              <source src="sound/Uncharted_Depths.mp3" type="audio/mpeg">
-              <source src="sound/Uncharted_Depths.ogg" type="audio/ogg">
-              Your browser does not support the audio element.
-            </audio>
            
           </article>
         </section>
