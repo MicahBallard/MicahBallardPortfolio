@@ -386,7 +386,7 @@ button:hover
       background: linear-gradient(var(--c9),var(--c8)); 
       width: 100%;
       list-style: none;
-      display:flex;
+      display:table;
       flex-direction:row;
       flex-wrap:wrap;
       text-align: center;
@@ -395,6 +395,10 @@ button:hover
       box-shadow: 5px 5px var(--s1);
       font-size:x-small;
       
+    }
+
+    .refImage{
+      width: 100%;
     }
 
     .ag-container{
@@ -406,7 +410,7 @@ button:hover
       background: linear-gradient(var(--c6),var(--c7));
       width: 100%;
       list-style: none;
-      display:flex;
+      display:table;
       flex-direction:row;
       flex-wrap:wrap;
       text-align: center;
