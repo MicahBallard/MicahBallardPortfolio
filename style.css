@@ -7,10 +7,10 @@
     --c6: #92b4af;
     --c7: #888baa;
     --c8: #733C53;
-    --c9: #F2BDD3;
+    --c9: #d6a7bb;
     --c10: #B2BCD2;
-    --m1: #5c486a;
-    --m2:  #5f47cb;
+    --m1: #8c739e;
+    --m2:  #6c619c;
     --g1: #C0E4EB;
     --g2: #517b83;
     --s1: rgba(0, 0, 0, 0.062);
@@ -114,6 +114,7 @@ button:hover
     box-shadow: 5px 5px var(--s1);
     
     
+    
     /*display: table;*/
   }
 
@@ -198,8 +199,9 @@ button:hover
     background: linear-gradient(var(--c6),var(--c7));
     border-radius: 25px;  
     height:20vh;
+    width: 40vh;
     list-style: none;
-    display: flex;
+    display:block;
     flex-direction: row;
     flex-wrap: wrap;
     flex: 0 0 auto;
@@ -214,11 +216,12 @@ button:hover
     background: linear-gradient(var(--c9),var(--c8));
     border-radius: 25px;  
     height:20vh;
+    width: 40vh;
     list-style: none;
-    display: flex;
+    display:block;
     flex-direction: row;
     flex-wrap: wrap;
-    flex: 0 0 auto;
+    flex: auto;
     box-shadow: 5px 5px var(--s1);
   }
   .p-container {
@@ -229,15 +232,29 @@ button:hover
   
   .fontSize1{
     font-size:3.5vh; 
+    
+    text-shadow:0.25vh 0.25vh #00000092;
   }
 
   .fontSize2{
-    font-size:2vh; 
+    font-size:2.5vh; 
+      text-shadow:0.25vh 0.25vh #00000092;
   }
 
   .fontSize3{
     font-size: 2.25vh; 
+    text-shadow:0.25vh 0.25vh #00000092;
+    /*text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; */ 
   }
+
+  .link{
+    font-size:2.5vh; 
+    
+}
 
 
 
@@ -253,6 +270,7 @@ button:hover
     font-size: 3.5vh;
     margin-bottom: 5%;
     color: var(--c3);
+    text-shadow:0.25vh 0.25vh #00000092;
   }
   
   h5 {
@@ -448,14 +466,17 @@ button:hover
 
     .fontSize1{
       font-size:4vh; 
+     
     }
   
     .fontSize2{
       font-size:3vh; 
+    
     }
   
     .fontSize3{
       font-size: 3.25vh; 
+   
     }
 
 
