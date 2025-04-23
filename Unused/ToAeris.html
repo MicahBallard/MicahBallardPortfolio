@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <script src="p5/p5.min.js"></script>
+  <script src="p5/addons/p5.sound.min.js"></script>
+  <!-- No libraries have been loaded into this template -->
+  <!-- Don't forget to add resources as needed (e.g. p5 or other libraries, fonts or icons, etc)-->
+
+  <title>Micah Ballard</title>
+  </head>
+  <body style="background-image: linear-gradient(var(--g1),var(--g2));">
+    
+<!--Responsive navigation menu (switches to hamburger on mobile)-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-custom sticky-top" aria-label="navbar" style="background: linear-gradient(var(--c6),var(--g2));">
+  <div class="container-xl">
+    <a class="navbar-brand" href="index.html">Micah Ballard</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07XL" aria-controls="navbarsExample07XL" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExample07XL">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Back to Top</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" id="aButton" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" id="aButton" aria-current="page" href="aboutGames.html">About Micah</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" id="IoWButton" aria-current="page" href="InstrumentsOfWar.html">Games</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" id="MUGDCButton" aria-current="page" href="MUGameDesignClub.html">MU Game Design Club</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" id="tButton" aria-current="page" href="MUTutor.html">MU Tutor</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" id="tButton" aria-current="page" href="MUTA.html">MU Teaching Assistant</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" id="mButton" aria-current="page" href="https://doornumberfourproductions.itch.io/" target="_blank">Itch.io</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" id="aButton" aria-current="page" href="https://www.linkedin.com/in/micah-ballard-a61189240/" target="_blank">LinkedIn</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" id="rButton" aria-current="page" href="Micah_Ballard_Resume.pdf" target="_blank">Resume</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" id="rButton" aria-current="page" href="Micah Ballard CV.pdf" target="_blank">CV</a>
+        </li>
+        <!--<li class="nav-item">
+          <a class="nav-link active" id="pOButton" aria-current="page">Piano On</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" id="pFButton" aria-current="page">Piano Off</a>
+        </li>-->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="dropdown07XL" data-bs-toggle="dropdown" aria-expanded="false">Menu</a>
+          <ul class="dropdown-menu" aria-labelledby="dropdown07XL">
+            <li><a class="dropdown-item" href="index.html">Home</a></li>
+            <li><a class="dropdown-item" href="aboutGames.html">About Micah</a></li>
+            <li><a class="dropdown-item" href="InstrumentsOfWar.html">Games</a></li>
+            <li><a class="dropdown-item" href="MUGameDesignClub.html">MU Game Design Club</a></li>
+            <li><a class="dropdown-item" href="MUTutor.html">MU Tutor</a></li>
+            <li><a class="dropdown-item" href="MUTA.html">MU Teaching Assistant</a></li>
+            <li><a class="dropdown-item" href="https://doornumberfourproductions.itch.io/" target="_blank">Itch.io</a></li>
+            <li><a class="dropdown-item" href="https://www.linkedin.com/in/micah-ballard-a61189240/" target="_blank">LinkedIn</a></li>
+            <li><a class="dropdown-item" href="https://musescore.com/user/30948625?share=copy_link" target="_blank">Musescore</a></li>
+            <li><a class="dropdown-item" href="Micah_Ballard_Resume.pdf" target="_blank">Resume</a></li>
+            <li><a class="dropdown-item" href="Micah Ballard CV.pdf" target="_blank">CV</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+        <!-- Chromesthesia flex container -->
+        <div class="ag-container" id="about-container" style="width: 55%;">
+          
+            <li class="item">
+              <h2>To Aeris</h2>
+              <p>To Aeris is a puzzle platformer game focused on exploration and atmospheric ambience. You play as a newly hatched alien bird exploring the alien planet of Atlas,
+                interacting with the environment of the world as they travel through the land and grow in order to complete the birds' migration cycle by returning to their home
+                planet, Aeris. This game is currently in development
+              </p>
+              <p  style="font-size:120%;">
+                <b>Accomplishments:</b>
+                <br>
+                - Am leading a team of 5, being Stella Kinoshita, Greyton Manne, Gus Kirkpatrick, Akira Wolfe, and Addie Drake.
+                <br>
+                - coding fluid movement systems, environmental interactions
+                <br>
+                - Composing dynamic multilayered orchestral music that changes based on interactions in the gameplay.
+                <br>
+                <br>
+                Software used: Unity, C#, Musescore 4, Audacity, Trello
+              </p>
+              
+            </li>
+            <li class="item">
+              <img id="about-image" src="img/ToAeris_Artwork.png" alt="ToAeris">
+             
+              <h5><i>To Aeris Poster Art by Stella Kinoshita</i></h5>
+            </li>
+        </div>
+        <div class="angry-grid">
+          <!--<div id="item-0">
+            <div class="s-container" id="about-container">
+              <li class="item">
+                <img id="about-image" src="img/Micah.jpg" alt="Micah">
+                <p>
+                  Skills
+                  <br>
+                  - 
+                </p>
+              </li>
+            </div>
+          </div>-->
+          
+          <div id="item-1">
+            <div class="g-container" id="about-container">
+              <button type="button" style="background-color:#ffffff00;">
+                <a class="nav-link active" id="aButton" aria-current="page" href="InstrumentsOfWar.html">
+                  <h2 class="about-header">Previous Game</h2>
+                  <p>Instruments of War</p>
+                </a>
+              <!--<li class="item">
+                <img id="about-image" src="img/Micah.jpg" alt="Micah">
+              </li>-->
+            </button>
+            </div>
+          </div>
+          <div id="item-2">
+            <div class="g-container" id="about-container">
+              
+              <button type="button" style="background-color:#ffffff00;" >
+                
+                <a class="nav-link active" id="aButton" aria-current="page" href="SkyFishing.html">
+                
+                  <h2 class="about-header"><center>Next Game</center></h2>
+                  <p>Sky Fishing</p>
+                
+                </a>
+              
+              <!--<li class="item">
+                <img id="about-image" src="img/Micah.jpg" alt="Micah">
+              </li>-->
+              </button>
+            
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--<div class="flex-container">
+        <div id="p5-canvas">
+          <button id="keyC"></button>
+          <button id="keyCS"></button>
+          <button id="keyD"></button>
+          <button id="keyDS"></button>
+          <button id="keyE"></button>
+          <button id="keyF"></button>
+          <button id="keyFS"></button>
+          <button id="keyG"></button>
+          <button id="keyGS"></button>
+          <button id="keyA"></button>
+          <button id="keyAS"></button>
+          <button id="keyB"></button>
+        </div>-->
+    </div>
+    <footer>
+      <div class="mt-1 p-4 bg-dark text-white text-center">
+        <div class="row">
+          <h3>Micah Ballard 2024</h3>
+        </div>  
+      </div>  
+    </footer>
+  <!--<script src="main.js"></script>-->
+</body>
+</html>
